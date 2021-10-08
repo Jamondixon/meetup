@@ -1,9 +1,9 @@
-// our-domain.com/news
+// our-domain.com/blogs
 
 import { Fragment } from "react";
 import Link from 'next/link';
 
-function NewsPage() {
+function BlogsPage() {
     return (
         <Fragment>
             <h1>Recent Blogs</h1>
@@ -40,4 +40,4 @@ function NewsPage() {
 }
 
 
-export default NewsPage;
+export default BlogsPage;
