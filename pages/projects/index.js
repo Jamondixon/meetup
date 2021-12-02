@@ -9,11 +9,11 @@ function ProjectsPage() {
             <h1 className='display-2 text-center'>Magnificent feats of software engineering</h1>
             <h2 className='text-center'>
                 {/* <Link href='/projects/this-is-a-wonderful-framework'> */}
-                <Link href='https://jamondixon.com/'>
+                <Link href='www.jamondixon.com/'>
                     Here is my very own website!
                 </Link>
             </h2>
-            <ul className='text-center'>
+            <ul className='text-center list-unstyled'>
                 <li>
                     <Link href='https://hopeful-raman-70b1e5.netlify.app/'>
                         Quesofinder

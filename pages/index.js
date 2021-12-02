@@ -13,7 +13,7 @@ function HomePage() {
         <h2 className="display-6 text-center "> Hello there</h2>
             <p className='font-weight-light font-monospace m-4 p-4'>I am happy to see you have arrived at my page. Here you will find all of my musings. From software engineering projects to technology blogs to artwork and random things I may have found on the internet.</p>
         <div className='text-center'>
-            <Image src={Jamon} alt="jamon" width={600} height={600} className='rounded mx-auto d-block'/>
+            <Image src={Jamon} alt="jamon" width={500} height={500} className='rounded mx-auto d-block'/>
         </div>
         <h4 className='text-center'>
             <Link href='/blogs'>

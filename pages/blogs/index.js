@@ -6,14 +6,8 @@ import Link from 'next/link';
 function BlogsPage() {
     return (
         <Fragment>
-            <h1>Recent Blogs</h1>
-            <h2>
-                {/* <Link href='/news/this-is-a-wonderful-framework'> */}
-                <Link href='https://jamondixon.medium.com/'>
-                    Check out my medium page!
-                </Link>
-            </h2>
-            <ul>
+            <h1 className='text-center'>Recent Blogs</h1>
+            <ul className='text-center list-unstyled'>
                 <li>
                     <Link href='https://jamondixon.medium.com/next-up-next-js-7b5eca81d212'>
                         Next up...Next.js
@@ -35,6 +29,12 @@ function BlogsPage() {
                     </Link>
                 </li>
             </ul>
+            <h2 className='text-center'>
+                {/* <Link href='/news/this-is-a-wonderful-framework'> */}
+                <Link href='https://jamondixon.medium.com/'>
+                    Check out my medium page!
+                </Link>
+            </h2>
         </Fragment>
         )
 }
